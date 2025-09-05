@@ -1,0 +1,1 @@
+I used Claude.ai to make this, after giving claude.ai an article I fould about what to give AI to create the prompts we need.
