@@ -1,0 +1,60 @@
+
+body {
+	background: linear-gradient(135deg, #1e1e2e 0%, #2d3748 100%);
+	min-height: 100vh;
+}
+
+.card {
+	background: rgba(45, 55, 72, 0.8);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(74, 85, 104, 0.3);
+}
+
+.form-control,
+.form-select,
+.form-check-input {
+	background: rgba(26, 32, 44, 0.8);
+	border: 1px solid rgba(74, 85, 104, 0.5);
+	color: #e2e8f0;
+}
+
+.form-control:focus,
+.form-select:focus {
+	background: rgba(26, 32, 44, 0.9);
+	border-color: #3182ce;
+	box-shadow: 0 0 0 0.2rem rgba(49, 130, 206, 0.25);
+}
+
+.btn-primary {
+	background: linear-gradient(135deg, #3182ce 0%, #2c5aa0 100%);
+	border: none;
+}
+
+.btn-outline-secondary {
+	border-color: #4a5568;
+	color: #e2e8f0;
+}
+
+.btn-outline-secondary:hover {
+	background: #4a5568;
+	border-color: #4a5568;
+}
+
+.output-container {
+	background: rgba(26, 32, 44, 0.9);
+	border: 1px solid rgba(74, 85, 104, 0.5);
+	border-radius: 0.375rem;
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.section-header {
+	background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+	border-left: 4px solid #3182ce;
+}
+
+.tech-badge {
+	background: rgba(49, 130, 206, 0.2);
+	color: #90cdf4;
+	border: 1px solid rgba(49, 130, 206, 0.3);
+}
